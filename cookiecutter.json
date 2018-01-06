@@ -1,0 +1,5 @@
+{
+  "application_name": "Your Application",
+  "package_name": "{{cookiecutter.application_name.lower().replace(' ', '_')}}",
+  "description": ""
+}
