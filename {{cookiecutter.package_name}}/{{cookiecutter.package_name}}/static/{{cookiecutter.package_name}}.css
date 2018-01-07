@@ -1,3 +1,17 @@
+body {
+    margin-bottom: 2em;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 2em;
+    width: 100%;
+    padding-top: 0.35em;
+    padding-left: 0.5em;
+}
+
 a {
     text-decoration: underline;
     text-decoration-style: dotted;
