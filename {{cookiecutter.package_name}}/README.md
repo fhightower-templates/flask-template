@@ -1,5 +1,7 @@
 # {{cookiecutter.application_name}}
 
+[![Build Status](https://travis-ci.org/fhightower/{{cookiecutter.repo_name}}.svg?branch=master)](https://travis-ci.org/fhightower/{{cookiecutter.repo_name}})
+
 {{cookiecutter.description}}
 
 ## Quick Start

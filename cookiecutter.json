@@ -1,5 +1,6 @@
 {
   "application_name": "Your Application",
   "package_name": "{{cookiecutter.application_name.lower().replace(' ', '_')}}",
+  "repo_name": "{{cookiecutter.application_name.lower().replace(' ', '-')}}",
   "description": ""
 }
