@@ -8,4 +8,4 @@ run:
 	~/.virtualenvs/{{cookiecutter.package_name}}/bin/python {{cookiecutter.package_name}}/{{cookiecutter.package_name}}.py
 
 test:
-	~/.virtualenvs/{{cookiecutter.package_name}}/bin/python -m unittest
+	~/.virtualenvs/{{cookiecutter.package_name}}/bin/python -m pytest
