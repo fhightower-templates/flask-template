@@ -1,6 +1,6 @@
 # Flask Template
 
-[![Build Status](https://travis-ci.org/fhightower/flask-template.svg?branch=master)](https://travis-ci.org/fhightower/flask-template)
+[![Build Status](https://travis-ci.org/fhightower-templates/flask-template.svg?branch=master)](https://travis-ci.org/fhightower-templates/flask-template)
 
 This is a simple [Flask](http://flask.pocoo.org) template that is ready for deployment to Heroku.
 
@@ -9,5 +9,5 @@ This template took inspiration from [https://github.com/datademofun/heroku-basic
 ## Usage
 
 ```
-cookiecutter cookiecutter https://github.com/fhightower/flask-template.git
+cookiecutter cookiecutter https://github.com/fhightower-templates/flask-template.git
 ```
