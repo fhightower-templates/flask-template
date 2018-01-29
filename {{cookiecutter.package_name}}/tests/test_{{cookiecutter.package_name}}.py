@@ -15,3 +15,5 @@ class {{cookiecutter.package_name.replace('_', ' ').title().replace(' ', '')}}Te
         rv = self.app.get('/')
         self.assertIn('{{cookiecutter.application_name}}', rv.data.decode())
         self.assertIn('{{cookiecutter.description}}', rv.data.decode())
+        self.assertIn('Welcome!', rv.data.decode())
+        self.assertIn('This is the start of something great.', rv.data.decode())
