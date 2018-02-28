@@ -1,5 +1,5 @@
 clean:
-	rm -rf venv && rm -rf *.egg-info && rm -rf dist && rm -rf *.log* && rm -fr .cache
+	rm -rf venv && rm -rf *.egg-info && rm -rf dist && rm -rf *.log* && rm -fr .cache && rm -rf .pytest_cache
 
 venv:
 	virtualenv -p python3 ~/.virtualenvs/{{cookiecutter.package_name}} && . ~/.virtualenvs/{{cookiecutter.package_name}}/bin/activate && pip3 install -r requirements.txt
