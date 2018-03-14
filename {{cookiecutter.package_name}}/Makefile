@@ -7,5 +7,5 @@ venv:
 run:
 	~/.virtualenvs/{{cookiecutter.package_name}}/bin/python {{cookiecutter.package_name}}/{{cookiecutter.package_name}}.py
 
-test:
+test: clean
 	~/.virtualenvs/{{cookiecutter.package_name}}/bin/python -m pytest
