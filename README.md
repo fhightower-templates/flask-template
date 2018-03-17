@@ -9,5 +9,5 @@ This template took inspiration from [https://github.com/datademofun/heroku-basic
 ## Usage
 
 ```
-cookiecutter cookiecutter https://github.com/fhightower-templates/flask-template.git
+cookiecutter https://github.com/fhightower-templates/flask-template.git
 ```
