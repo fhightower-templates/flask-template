@@ -10,6 +10,7 @@ app.secret_key = 'abc'
 @app.route("/")
 def index():
     # request.form['text']
+    # request.args.get('text')
     return render_template("index.html")
 
 
