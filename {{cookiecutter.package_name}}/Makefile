@@ -9,3 +9,6 @@ run:
 
 test: clean
 	~/.virtualenvs/{{cookiecutter.package_name}}/bin/python -m pytest
+
+destroy:
+	rm -rf ~/.virtualenvs/{{cookiecutter.package_name}}
