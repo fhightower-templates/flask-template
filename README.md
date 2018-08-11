@@ -1,5 +1,9 @@
 # Flask Template
 
+PROJECT MOVED TO GITLAB: https://gitlab.com/fhightower-templates/flask-template
+
+---
+
 [![Build Status](https://travis-ci.org/fhightower-templates/flask-template.svg?branch=master)](https://travis-ci.org/fhightower-templates/flask-template)
 
 This is a simple [Flask](http://flask.pocoo.org) template that is ready for deployment to Heroku.
