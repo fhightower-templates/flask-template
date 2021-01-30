@@ -1,3 +1,9 @@
 Flask
 gunicorn
 pytest
+{%- if cookiecutter.use_postgresql == 'y' %}
+psycopg2
+Flask-SQLAlchemy
+Flask-Script
+Flask-Migrate
+{% endif -%}

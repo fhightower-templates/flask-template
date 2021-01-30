@@ -1,7 +1,10 @@
 {
   "application_name": "Your Application",
   "package_name": "{{cookiecutter.application_name.lower().replace(' ', '_')}}",
+  "repo_location": "github.com",
+  "repo_username": "fhightower",
   "repo_name": "{{cookiecutter.application_name.lower().replace(' ', '-')}}",
   "weblink": "",
-  "description": ""
+  "description": "",
+  "use_postgresql": ["n", "y"]
 }

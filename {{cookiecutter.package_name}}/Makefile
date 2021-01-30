@@ -12,3 +12,12 @@ test: clean
 
 destroy:
 	rm -rf ~/.virtualenvs/{{cookiecutter.package_name}}
+
+init:
+	. ~/.virtualenvs/{{cookiecutter.package_name}}/bin/activate && ~/.virtualenvs/{{cookiecutter.package_name}}/bin/python {{cookiecutter.package_name}}/manage.py db init
+
+mg:
+	~/.virtualenvs/{{cookiecutter.package_name}}/bin/python {{cookiecutter.package_name}}/manage.py db migrate
+
+up:
+	~/.virtualenvs/{{cookiecutter.package_name}}/bin/python {{cookiecutter.package_name}}/manage.py db upgrade

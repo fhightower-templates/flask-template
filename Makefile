@@ -1,5 +1,3 @@
-all: test
-
 clean:
 	rm -rf /tmp/your_application/ && rm -rf ~/.virtualenvs/your_application/
 
